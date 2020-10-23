@@ -1,0 +1,5 @@
+x86_64-apple-darwin/traffic-mesh
+x86_64-pc-windows-msvc/traffic-mesh.exe
+x86_64-unknown-linux-gnu/traffic-mesh
+
+*.tgz

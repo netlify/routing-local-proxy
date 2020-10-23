@@ -1,0 +1,24 @@
+{
+  "name": "@netlify/traffic-mesh-agent",
+  "version": "0.1.0",
+  "description": "Netlify's Edge on your computer. You need a 64-bit machine to execute traffic-mesh.",
+  "files": [
+    "README.md",
+    "x86_64-apple-darwin/traffic-mesh",
+    "x86_64-pc-windows-msvc/traffic-mesh.exe",
+    "x86_64-unknown-linux-gnu/traffic-mesh"
+  ],
+  "scripts": {
+    "set-version": "node scripts/set-version.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "edge",
+    "netlify"
+  ],
+  "author": "Netlify, Inc.",
+  "contributors": [
+    "Moritz Gunz <moritz.gunz@gmail.com>"
+  ],
+  "license": "MIT"
+}

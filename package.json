@@ -9,6 +9,7 @@
     "x86_64-unknown-linux-gnu/traffic-mesh"
   ],
   "scripts": {
+    "rename-packball": "node scripts/rename-package.js",
     "set-version": "node scripts/set-version.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+/**
+ * Overwrites the version field of the parent package.json which what's given via
+ * environment parameter VERSION or via CLI parameter.
+ */
+
 const fs = require("fs");
 const path = require("path");
 
